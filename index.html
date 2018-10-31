@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/better-scroll.js"></script>
+    <script src="swiper4/swiper-4.3.5.min.js"></script>
+    <link rel="stylesheet" href="swiper4/swiper-4.3.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            全场包邮低至5元
+        </header>
+        <section>
+           
+        </section>
+        <footer>
+            <dl>
+                <dt class="iconfont icon-shouye"></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt class="iconfont icon-fenlei"></dt>
+                <dd>分类</dd>
+            </dl>
+            <dl>
+                <dt class="iconfont icon-qrcode"></dt>
+                <dd>品牌特卖</dd>
+            </dl>
+            <dl>
+                <dt class="iconfont icon-qrcode"></dt>
+                <dd>5元包邮</dd>
+            </dl>
+            <dl>
+                <dt class="iconfont icon-wode"></dt>
+                <dd>我的</dd>
+            </dl>
+        </footer>
+    </div>
+   <script>
+        var Bscroll = new BScroll('.nav', {
+            scrollX: true,
+            scrollbar: true,
+            click: true
+        });
+        var mySwiper = new Swiper('.swiper-container', {
+            on: {
+                slideChange: function() {}
+            },
+            pagination:{
+                el:'.swiper-pagination',
+                clickable:true
+            }
+        });
+        var Bscroll = new BScroll('.box', {
+            scrollX: true,
+            scrollbar: true,
+            click: true
+        });
+    </script>
+</body>
+</html>
