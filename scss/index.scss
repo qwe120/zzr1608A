@@ -39,7 +39,7 @@ section .nav{
     border-bottom: 1px solid #ccc;
     position: relative;
 }
-section .nav ul{
+section .nav>ul{
     // height: pxTorem(50px);
     // height: 100%;
     // @include box_flex;
@@ -137,7 +137,7 @@ section .nav ul{
     div{
         width: 100%;
         height: pxTorem(20px);
-    }
+        }
     }
 }
 h2{
